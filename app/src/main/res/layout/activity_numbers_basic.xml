@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context="com.base111.beeline.NumbersBasicActivity">
+
+    <ImageView
+        android:id="@+id/numbersbanner"
+        android:src="@drawable/numbers_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/numsDisplay"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numbersbanner"
+        android:layout_centerHorizontal="true"
+        android:text="@string/numStartDisplay"
+        android:textColor="@color/numsDisplay"
+        android:textSize="34sp"/>
+    <Button
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numsDisplay"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/back_arrow"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numsDisplay"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/next_arrow"/>
+    <!--<TextView
+        android:id="@+id/playtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playInstruct"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/playbtn"/>
+    <ImageView
+        android:id="@+id/playbtn"
+        android:src="@drawable/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/playtext"/>-->
+    <!--<TextView
+        android:id="@+id/numsDisplayPara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numsDisplay"/>-->
+
+</RelativeLayout>

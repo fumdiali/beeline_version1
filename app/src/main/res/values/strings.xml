@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Beeline</string>
+    <string name="appabout">About Us</string>
+    <string name="search">Web Search</string>
+    <string name="applabelpara">
+        <b>Free Knowledge</b>
+    </string>
+    <string name="basicsHome">Basics Home</string>
+    <string name="basic_numbers">Numbers</string>
+    <string name="numStartDisplay">ONE - OFU</string>
+    <string name="playInstruct">Click for audio</string>
+    <string name="num_quiz">Numbers Quiz</string>
+    <string name="basic_greet">Salutations</string>
+    <string name="greet_quiz">Greetings quiz</string>
+    <string name="basic_phrases">Phrases &amp; Proverbs</string>
+    <string name="phrase_quiz">Phrases quiz</string>
+</resources>
